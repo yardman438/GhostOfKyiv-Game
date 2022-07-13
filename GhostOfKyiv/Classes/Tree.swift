@@ -1,6 +1,6 @@
 //
 //  Island.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 15.06.2022.
 //
@@ -8,12 +8,12 @@
 import UIKit
 import GameplayKit
 
-final class Island: SKSpriteNode, GameBackgroundSpriteable {
+final class Tree: SKSpriteNode, GameBackgroundSpriteable {
 
-    static func populate(at point: CGPoint?) -> Island {
+    static func populate(at point: CGPoint?) -> Tree {
         
         let islandImageName = configureImageName()
-        let island = Island(imageNamed: islandImageName)
+        let island = Tree(imageNamed: islandImageName)
         
         island.setScale(randomScaleFactor)
         island.position = point ?? randomPoint()
