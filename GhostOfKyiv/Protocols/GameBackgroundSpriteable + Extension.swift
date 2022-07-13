@@ -1,6 +1,6 @@
 //
 //  GameBackgroundSpriteable.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 15.06.2022.
 //

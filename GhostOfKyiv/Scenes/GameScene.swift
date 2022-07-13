@@ -1,6 +1,6 @@
 //
 //  GameScene.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 14.06.2022.
 //
@@ -67,7 +67,6 @@ class GameScene: ParentScene {
         
         spawnPowerUp()
         spawnEnemies()
-        
     }
     
     fileprivate func createHUD() {
@@ -84,10 +83,10 @@ class GameScene: ParentScene {
         
         let screen = UIScreen.main.bounds
         
-        let island1 = Island.populate(at: CGPoint(x: 100, y: 200))
+        let island1 = Tree.populate(at: CGPoint(x: 100, y: 200))
         self.addChild(island1)
         
-        let island2 = Island.populate(at: CGPoint(x: self.size.width - 100, y: self.size.height - 200))
+        let island2 = Tree.populate(at: CGPoint(x: self.size.width - 100, y: self.size.height - 200))
         self.addChild(island2)
         
         player = PlayerPlane.populate(at: CGPoint(x: screen.size.width / 2, y: 100))
@@ -112,7 +111,7 @@ class GameScene: ParentScene {
         
         let spawnIslandWait = SKAction.wait(forDuration: 1)
         let spawnIslandAction = SKAction.run {
-            let island = Island.populate(at: nil)
+            let island = Tree.populate(at: nil)
             self.addChild(island)
         }
         
@@ -321,11 +320,9 @@ extension GameScene: SKPhysicsContactDelegate {
             }
         default: preconditionFailure("Unable to detect collision category")
         }
-        
     }
     
     func didEnd(_ contact: SKPhysicsContact) {
         
     }
-    
 }

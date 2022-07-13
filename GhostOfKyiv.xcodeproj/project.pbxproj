@@ -35,7 +35,7 @@
 		5E8F1724285924ED00A2EE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F1723285924ED00A2EE7D /* Assets.xcassets */; };
 		5E8F1727285924ED00A2EE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F1725285924ED00A2EE7D /* LaunchScreen.storyboard */; };
 		5E8F172E2859DA0D00A2EE7D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F172D2859DA0D00A2EE7D /* Background.swift */; };
-		5E8F17302859E06600A2EE7D /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F172F2859E06600A2EE7D /* Island.swift */; };
+		5E8F17302859E06600A2EE7D /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F172F2859E06600A2EE7D /* Tree.swift */; };
 		5E8F17322859F79E00A2EE7D /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F17312859F79E00A2EE7D /* Cloud.swift */; };
 		5E8F17342859F7B200A2EE7D /* GameBackgroundSpriteable + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F17332859F7B200A2EE7D /* GameBackgroundSpriteable + Extension.swift */; };
 		5E8F17372859FE4A00A2EE7D /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F17362859FE4A00A2EE7D /* PlayerPlane.atlas */; };
@@ -78,7 +78,7 @@
 		5E8F1723285924ED00A2EE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E8F1726285924ED00A2EE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E8F172D2859DA0D00A2EE7D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
-		5E8F172F2859E06600A2EE7D /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		5E8F172F2859E06600A2EE7D /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		5E8F17312859F79E00A2EE7D /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		5E8F17332859F7B200A2EE7D /* GameBackgroundSpriteable + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameBackgroundSpriteable + Extension.swift"; sourceTree = "<group>"; };
 		5E8F17362859FE4A00A2EE7D /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 				5E8F172D2859DA0D00A2EE7D /* Background.swift */,
 				5E8F17382859FE6700A2EE7D /* PlayerPlane.swift */,
 				5EAF952928635EA9005CADB5 /* Enemy.swift */,
-				5E8F172F2859E06600A2EE7D /* Island.swift */,
+				5E8F172F2859E06600A2EE7D /* Tree.swift */,
 				5E8F17312859F79E00A2EE7D /* Cloud.swift */,
 				5EF44BB0285CD65E002FE498 /* PowerUp.swift */,
 				5E2C8F5A286DE5530072DFBC /* GreenPowerUp.swift */,
@@ -323,7 +323,7 @@
 				5EBCFAA5287561B50099D4F8 /* GameOverScene.swift in Sources */,
 				5E2C8F752874997F0072DFBC /* SceneManager.swift in Sources */,
 				5E2C8F5B286DE5530072DFBC /* GreenPowerUp.swift in Sources */,
-				5E8F17302859E06600A2EE7D /* Island.swift in Sources */,
+				5E8F17302859E06600A2EE7D /* Tree.swift in Sources */,
 				5EF44BB1285CD65E002FE498 /* PowerUp.swift in Sources */,
 				5E2C8F7B2874C7540072DFBC /* BestScene.swift in Sources */,
 				5E2C8F68286E2D580072DFBC /* BitMaskCategory.swift in Sources */,

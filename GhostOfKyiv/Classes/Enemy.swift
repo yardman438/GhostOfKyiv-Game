@@ -1,6 +1,6 @@
 //
 //  Enemy.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 22.06.2022.
 //

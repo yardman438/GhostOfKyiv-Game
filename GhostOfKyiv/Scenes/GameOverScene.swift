@@ -1,6 +1,6 @@
 //
 //  GameOverScene.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 06.07.2022.
 //
@@ -22,7 +22,6 @@ class GameOverScene: ParentScene {
             button.zPosition = 1
             self.addChild(button)
         }
-        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

@@ -1,6 +1,6 @@
 //
 //  HUD.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 04.07.2022.
 //

@@ -1,6 +1,6 @@
 //
 //  GameSettings.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 06.07.2022.
 //
@@ -49,5 +49,4 @@ class GameSettings: NSObject {
         guard userDefaults.value(forKey: highScoreKey) != nil else { return }
         highScore = userDefaults.integer(forKey: highScoreKey)
     }
-    
 }

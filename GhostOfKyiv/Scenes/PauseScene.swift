@@ -1,6 +1,6 @@
 //
 //  PauseScene.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 04.07.2022.
 //
@@ -22,7 +22,6 @@ class PauseScene: ParentScene {
             button.zPosition = 1
             self.addChild(button)
         }
-        
     }
     
     override func update(_ currentTime: TimeInterval) {

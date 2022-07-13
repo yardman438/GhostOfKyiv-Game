@@ -1,6 +1,6 @@
 //
 //  PowerUp.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 17.06.2022.
 //

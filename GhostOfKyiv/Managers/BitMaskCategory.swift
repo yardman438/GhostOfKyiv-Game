@@ -1,6 +1,6 @@
 //
 //  BitMaskCategory.swift
-//  WarFlyGame
+//  GhostOfKyiv
 //
 //  Created by Serhii Dvornyk on 30.06.2022.
 //
